@@ -1,0 +1,71 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    width: 60%;
+    margin: 25px auto;
+    
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 1.25rem;
+    width: 55%;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 0.5rem;
+    margin: 25px auto;
+}
+.whole_component {
+    border-radius: 2rem;
+    overflow: hidden;
+    display: grid;
+    width: 600px;
+    height: 900px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
